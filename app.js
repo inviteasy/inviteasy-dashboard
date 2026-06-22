@@ -1,7 +1,7 @@
 const BRIQUES = ['b1', 'b2', 'b3', 'b4', 'b5', 'b6'];
 
 // URL du Worker Cloudflare (à renseigner après déploiement — voir worker/README.md).
-const WORKER_URL = '';
+const WORKER_URL = 'https://inviteasy-trigger.curly-mud-0e42.workers.dev/';
 // Briques déclenchables manuellement (b3 = cron O2switch, non déclenchable).
 const TRIGGERABLE = {
   b1: 'B1 — Résiliation', b2: 'B2 — Sauvegardes', b4: 'B4 — Fiches IA',
