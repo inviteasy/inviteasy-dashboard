@@ -1,0 +1,19 @@
+{
+  "brique": "B5 — Publication WordPress",
+  "status": "ok",
+  "summary": "153 ignorés",
+  "counts": {
+    "créés": 0,
+    "misÀJour": 0,
+    "ignorés": 153
+  },
+  "errors": [],
+  "lastRun": "2026-06-22T15:36:11.772Z",
+  "history": [
+    {
+      "date": "2026-06-22T15:36:11.772Z",
+      "status": "ok",
+      "summary": "153 ignorés"
+    }
+  ]
+}
