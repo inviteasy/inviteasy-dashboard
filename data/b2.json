@@ -1,0 +1,18 @@
+{
+  "brique": "B2 — Sauvegardes",
+  "status": "ok",
+  "summary": "aucune activité",
+  "counts": {
+    "sauvegardés": 0,
+    "bloqués": 0
+  },
+  "errors": [],
+  "lastRun": "2026-06-22T18:55:05.853Z",
+  "history": [
+    {
+      "date": "2026-06-22T18:55:05.853Z",
+      "status": "ok",
+      "summary": "aucune activité"
+    }
+  ]
+}
