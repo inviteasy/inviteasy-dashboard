@@ -1,0 +1,18 @@
+{
+  "brique": "B4 — Fiches IA",
+  "status": "ok",
+  "summary": "3 complétées",
+  "counts": {
+    "complétées": 3,
+    "sautées": 0
+  },
+  "errors": [],
+  "lastRun": "2026-06-22T18:32:46.925Z",
+  "history": [
+    {
+      "date": "2026-06-22T18:32:46.925Z",
+      "status": "ok",
+      "summary": "3 complétées"
+    }
+  ]
+}
