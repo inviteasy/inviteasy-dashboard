@@ -9,6 +9,11 @@ const TRIGGERABLE = {
 };
 // Briques à effet réel (suppression/résiliation) → confirmation renforcée.
 const EFFET_REEL = new Set(['b1', 'b2']);
+// Libellés par défaut (carte affichée même si la brique n'a jamais publié de statut).
+const BRIQUE_NAMES = {
+  b1: 'B1 — Résiliation', b2: 'B2 — Sauvegardes', b3: 'B3 — Anonymisation',
+  b4: 'B4 — Fiches IA', b5: 'B5 — Publication', b6: 'B6 — Miniatures'
+};
 
 function toast(msg, ok) {
   const t = document.createElement('div');
@@ -65,10 +70,12 @@ function cardHtml(d) {
   const hist = (d.history || []).slice(1).map((h) => `<li>${escapeHtml(h.summary)} — ${timeAgo(h.date)}</li>`).join('');
   const run = TRIGGERABLE[d.id]
     ? `<button class="run" onclick="trigger('${d.id}')">▶ Lancer</button>` : '';
+  const title = escapeHtml(d.brique || BRIQUE_NAMES[d.id] || d.id);
+  const summary = d.missing ? 'Jamais lancé — en attente du premier run' : (d.summary || '');
   return `<section class="card ${d.status}">
-    <h2>${escapeHtml(d.brique)} <span class="badge ${d.status}">${d.status}</span></h2>
+    <h2>${title} <span class="badge ${d.status}">${d.status}</span></h2>
     <div class="meta">Dernier run : ${timeAgo(d.lastRun)}</div>
-    <div class="summary">${escapeHtml(d.summary || '')}</div>
+    <div class="summary">${escapeHtml(summary)}</div>
     ${cost}${errs}
     ${hist ? `<details><summary>Historique</summary><ul>${hist}</ul></details>` : ''}
     ${run}
@@ -77,16 +84,16 @@ function cardHtml(d) {
 
 async function load() {
   const results = await Promise.all(BRIQUES.map(async (b) => {
-    try { const r = await fetch(`data/${b}.json?t=${Date.now()}`); return r.ok ? { id: b, ...(await r.json()) } : null; } catch { return null; }
+    try { const r = await fetch(`data/${b}.json?t=${Date.now()}`); return r.ok ? { id: b, ...(await r.json()) } : { id: b, status: 'inconnu', missing: true }; } catch { return { id: b, status: 'inconnu', missing: true }; }
   }));
-  const data = results.filter(Boolean);
-  const order = { erreur: 0, partiel: 1, ok: 2 };
+  const data = results;
+  const order = { erreur: 0, partiel: 1, ok: 2, inconnu: 4 };
   data.sort((a, b) => (order[a.status] ?? 3) - (order[b.status] ?? 3));
-  const ko = data.filter((d) => d.status !== 'ok').length;
+  const ko = data.filter((d) => d.status === 'erreur' || d.status === 'partiel').length;
   const alert = document.getElementById('alert');
   alert.className = 'alert ' + (ko ? 'ko' : 'ok');
   alert.textContent = ko ? `⚠️ ${ko} brique(s) à surveiller` : '✅ Tout va bien';
-  document.getElementById('cards').innerHTML = data.length ? data.map(cardHtml).join('') : 'Aucune donnée pour le moment.';
+  document.getElementById('cards').innerHTML = data.map(cardHtml).join('');
   document.getElementById('updated').textContent = 'Mis à jour ' + timeAgo(new Date().toISOString());
 }
 load();

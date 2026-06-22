@@ -17,6 +17,8 @@ main { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr
 .badge.ok { background: #e8f5e9; color: #1b5e20; }
 .badge.partiel { background: #fff4e5; color: #92400e; }
 .badge.erreur { background: #fde8e8; color: #9b1c1c; }
+.badge.inconnu { background: #eceef1; color: #555; }
+.card.inconnu { border-left-color: #c2c7cf; opacity: .85; }
 .meta { color: #666; font-size: 13px; margin: 6px 0; }
 .summary { margin: 8px 0; }
 .errors { background: #fff7f7; border: 1px solid #f3d2d2; border-radius: 6px; padding: 8px; font-size: 13px; color: #9b1c1c; }
