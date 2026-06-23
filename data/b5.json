@@ -8,8 +8,13 @@
     "ignorés": 153
   },
   "errors": [],
-  "lastRun": "2026-06-23T09:24:49.421Z",
+  "lastRun": "2026-06-23T14:30:55.980Z",
   "history": [
+    {
+      "date": "2026-06-23T14:30:55.980Z",
+      "status": "ok",
+      "summary": "153 ignorés"
+    },
     {
       "date": "2026-06-23T09:24:49.421Z",
       "status": "ok",
