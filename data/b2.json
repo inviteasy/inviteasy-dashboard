@@ -7,8 +7,13 @@
     "bloqués": 0
   },
   "errors": [],
-  "lastRun": "2026-06-23T07:41:15.416Z",
+  "lastRun": "2026-06-24T07:33:55.977Z",
   "history": [
+    {
+      "date": "2026-06-24T07:33:55.977Z",
+      "status": "ok",
+      "summary": "aucune activité"
+    },
     {
       "date": "2026-06-23T07:41:15.416Z",
       "status": "ok",
