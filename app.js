@@ -1,7 +1,7 @@
 const BRIQUES = ['b1', 'b2', 'b3', 'b4', 'b5', 'b6'];
 
 // Horaires des crons (heure UTC, chaque lundi). À garder synchro avec les workflows.
-const SCHEDULE = { b1: 6, b2: 7, b3: 8, b6: 9, b4: 10, b5: 11 };
+const SCHEDULE = { b1: 6, b2: 8, b3: 10, b6: 12, b4: 14, b5: 16 };
 
 // Prochaine occurrence d'un lundi à hourUTC (strictement après now). Date ou null.
 function nextRun(hourUTC, now) {
