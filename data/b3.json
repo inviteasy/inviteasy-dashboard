@@ -10,8 +10,13 @@
     "iaIndispo": 0
   },
   "errors": [],
-  "lastRun": "2026-06-23T02:00:10.530Z",
+  "lastRun": "2026-06-24T02:00:07.945Z",
   "history": [
+    {
+      "date": "2026-06-24T02:00:07.945Z",
+      "status": "ok",
+      "summary": "aucune activité"
+    },
     {
       "date": "2026-06-23T02:00:10.530Z",
       "status": "ok",
