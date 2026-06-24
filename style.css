@@ -34,3 +34,18 @@ details { margin-top: 8px; font-size: 13px; }
 .badge.late { background: #fff4e5; color: #92400e; }
 .card.late { border-left-color: #f59e0b; }
 .meta.next { color: #555; font-size: 12.5px; margin-top: 2px; }
+#demos-panel { margin: 8px 24px 32px; }
+#demos-panel h2 { font-size: 18px; }
+#demos-controls { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; font-size: 13px; }
+#demos-search { padding: 6px 10px; border: 1px solid #ccc; border-radius: 6px; min-width: 220px; }
+#demos-filters button { margin-right: 4px; padding: 4px 10px; border: 1px solid #ccc; background: #fff; border-radius: 999px; cursor: pointer; }
+#demos-filters button.on { background: #1d2129; color: #fff; border-color: #1d2129; }
+#demos-summary { color: #666; }
+.demo-row { display: grid; grid-template-columns: 1.6fr .8fr 1fr 1fr 1.4fr; gap: 10px; align-items: center; padding: 8px 12px; background: #fff; border-radius: 8px; margin-bottom: 6px; box-shadow: 0 1px 2px rgba(0,0,0,.06); border-left: 4px solid #ccc; }
+.demo-row.cassée { border-left-color: #d32f2f; }
+.demo-row.à-vérifier { border-left-color: #f59e0b; }
+.demo-row.ok { border-left-color: #2e7d32; }
+.demo-name { font-weight: 600; }
+.demo-code { color: #666; font-family: monospace; }
+.demo-actions a, .demo-actions button { margin-right: 6px; font-size: 12px; padding: 4px 8px; border-radius: 6px; border: 1px solid #ccc; background: #fff; cursor: pointer; text-decoration: none; color: #1d2129; }
+.demo-actions button.warn { border-color: #e0a; color: #a02; }

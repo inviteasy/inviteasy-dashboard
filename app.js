@@ -63,33 +63,17 @@ function toast(msg, ok) {
   setTimeout(() => t.remove(), 5000);
 }
 
-async function trigger(brique) {
-  if (!WORKER_URL) { toast('Worker non configuré (WORKER_URL vide).', false); return; }
-  const label = TRIGGERABLE[brique] || brique;
-  const dur = EFFET_REEL.has(brique) ? ' — ⚠️ action à effet réel' : '';
+async function trigger(brique, code) {
+  const label = (TRIGGERABLE[brique] || brique) + (code ? ` (${code})` : '');
+  const dur = (EFFET_REEL.has(brique) || brique === 'recreate') ? ' — ⚠️ action à effet réel' : '';
   if (!confirm(`Lancer ${label}${dur} ?`)) return;
-  let key = localStorage.getItem('triggerKey');
-  if (!key) {
-    key = prompt('Clé de déclenchement :');
-    if (!key) return;
-    localStorage.setItem('triggerKey', key);
-  }
+  let key = localStorage.getItem('triggerKey'); if (!key) { key = prompt('Clé de déclenchement :'); if (!key) return; localStorage.setItem('triggerKey', key); }
   try {
-    const r = await fetch(WORKER_URL, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'X-Trigger-Key': key },
-      body: JSON.stringify({ brique })
-    });
-    if (r.status === 401) {
-      localStorage.removeItem('triggerKey');
-      toast('Clé invalide — réessayez.', false);
-      return;
-    }
+    const r = await fetch(WORKER_URL, { method: 'POST', headers: { 'Content-Type': 'application/json', 'X-Trigger-Key': key }, body: JSON.stringify(code ? { brique, code } : { brique }) });
+    if (r.status === 401) { localStorage.removeItem('triggerKey'); toast('Clé invalide — réessayez.', false); return; }
     if (!r.ok) { toast(`Échec (${r.status}).`, false); return; }
     toast(`${label} lancé ✅`, true);
-  } catch {
-    toast('Erreur réseau.', false);
-  }
+  } catch { toast('Erreur réseau.', false); }
 }
 
 function timeAgo(iso) {
@@ -170,3 +154,36 @@ async function load() {
 }
 load();
 setInterval(load, 60000);
+
+const HEALTH_BADGE = { ok: '✅ ok', 'cassée': '🔴 cassée', 'à-vérifier': '⚠️ à vérifier' };
+let DEMOS = [], demoFilter = 'all', demoSearch = '';
+function renderDemos() {
+  const grid = document.getElementById('demos-grid'); if (!grid) return;
+  const order = { 'cassée': 0, 'à-vérifier': 1, ok: 2 };
+  let list = DEMOS.filter((d) => demoFilter === 'all' || d.health === demoFilter);
+  if (demoSearch) { const q = demoSearch.toLowerCase(); list = list.filter((d) => (d.nom + ' ' + d.code).toLowerCase().includes(q)); }
+  list.sort((a, b) => (order[a.health] ?? 3) - (order[b.health] ?? 3));
+  grid.innerHTML = list.map((d) => `<div class="demo-row ${d.health}">
+    <span class="demo-name">${escapeHtml(d.nom)}</span>
+    <span class="demo-code">${escapeHtml(d.code)}</span>
+    <span class="badge ${d.health === 'ok' ? 'ok' : d.health === 'cassée' ? 'erreur' : 'partiel'}">${HEALTH_BADGE[d.health] || d.health}</span>
+    <span class="demo-type">${escapeHtml(d.type || '')}</span>
+    <span class="demo-actions">
+      <a href="${escapeHtml(d.lien)}" target="_blank" rel="noopener">Ouvrir</a>
+      <button onclick="trigger('b6','${d.code}')">Miniature</button>
+      <button class="warn" onclick="trigger('recreate','${d.code}')">Recréer</button>
+    </span>
+  </div>`).join('') || '<p>Aucune démo.</p>';
+}
+async function loadDemos() {
+  try { const r = await fetch('data/demos.json?t=' + Date.now()); if (!r.ok) return; const f = await r.json();
+    DEMOS = f.demos || [];
+    document.getElementById('demos-summary').textContent = `${f.total} démos · ${f.counts['cassée']||0} cassées · ${f.counts['à-vérifier']||0} à vérifier · maj ${timeAgo(f.generatedAt)}`;
+    renderDemos();
+  } catch {}
+}
+document.addEventListener('click', (e) => {
+  const fb = e.target.closest('#demos-filters button'); if (fb) { demoFilter = fb.dataset.f; document.querySelectorAll('#demos-filters button').forEach((b) => b.classList.toggle('on', b === fb)); renderDemos(); }
+});
+document.addEventListener('input', (e) => { if (e.target.id === 'demos-search') { demoSearch = e.target.value; renderDemos(); } });
+loadDemos(); setInterval(loadDemos, 60000);

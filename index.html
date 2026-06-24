@@ -11,6 +11,19 @@
   <div id="alert" class="alert hidden"></div>
   <div id="summary" class="summary-bar"></div>
   <main id="cards">Chargement…</main>
+  <section id="demos-panel">
+    <h2>Démos</h2>
+    <div id="demos-controls">
+      <input id="demos-search" type="search" placeholder="Rechercher (nom ou code)…">
+      <span id="demos-filters">
+        <button data-f="all" class="on">Toutes</button>
+        <button data-f="cassée">🔴 Cassées</button>
+        <button data-f="à-vérifier">⚠️ À vérifier</button>
+      </span>
+      <span id="demos-summary"></span>
+    </div>
+    <div id="demos-grid">Chargement…</div>
+  </section>
   <script src="app.js"></script>
 </body>
 </html>
