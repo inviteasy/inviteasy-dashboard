@@ -1,7 +1,7 @@
 {
   "brique": "B3 — Création + anonymisation",
-  "status": "ok",
-  "summary": "aucune activité",
+  "status": "erreur",
+  "summary": "1 erreur(s)",
   "counts": {
     "créées": 0,
     "anonymisées": 0,
@@ -9,9 +9,16 @@
     "rollback": 0,
     "iaIndispo": 0
   },
-  "errors": [],
-  "lastRun": "2026-06-24T02:00:07.945Z",
+  "errors": [
+    "AP8BL : LOCAL \"wp core download --path='/home/bidy0027/public_html/AP8BL' --force\" → 127 : /bin/sh: wp : commande introuvable\n"
+  ],
+  "lastRun": "2026-06-29T10:00:26.552Z",
   "history": [
+    {
+      "date": "2026-06-29T10:00:26.552Z",
+      "status": "erreur",
+      "summary": "1 erreur(s)"
+    },
     {
       "date": "2026-06-24T02:00:07.945Z",
       "status": "ok",
