@@ -1,0 +1,755 @@
+{
+  "generatedAt": "2026-06-30T09:26:17.965Z",
+  "total": 93,
+  "counts": {
+    "ok": 87,
+    "cassée": 0,
+    "à-vérifier": 6
+  },
+  "demos": [
+    {
+      "code": "ZK9QX",
+      "nom": "Blue Flame",
+      "lien": "https://inviteasy-modeles.fr/ZK9QX/invt/6845/",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "R6I7A",
+      "nom": "Luminous Star",
+      "lien": "https://inviteasy-modeles.fr/R6I7A/",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "P7U2B",
+      "nom": "Garden Bloom",
+      "lien": "https://inviteasy-modeles.fr/P7U2B/fr/mdtc/",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "P5G1N",
+      "nom": "Earthen Bloom",
+      "lien": "https://inviteasy-modeles.fr/P5G1N/fr/hhrc/modele/",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "Q2R7V",
+      "nom": "Electric Stone",
+      "lien": "https://inviteasy-modeles.fr/Q2R7V/fr/ssd/001/",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "H4L1H",
+      "nom": "Neon Glow",
+      "lien": "https://inviteasy-modeles.fr/H4L1H/fr/crfds/modele/",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "L0E5A",
+      "nom": "Watercolor Whisper",
+      "lien": "https://inviteasy-modeles.fr/L0E5A/mhmrc/modele/",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "D2U9S",
+      "nom": "Urban Pulse",
+      "lien": "https://inviteasy-modeles.fr/D2U9S/fr/tdsr/modele/",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "S3D4M",
+      "nom": "Tropical Horizon",
+      "lien": "https://inviteasy-modeles.fr/S3D4M/fr/m-hc/",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "D4W0I",
+      "nom": "Green Racket",
+      "lien": "https://inviteasy-modeles.fr/D4W0I/fr/invt/modele/",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "E9N6B",
+      "nom": "Golden Embrace",
+      "lien": "https://inviteasy-modeles.fr/E9N6B/hms/modele/",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "B4O4N",
+      "nom": "Sweet Nectar",
+      "lien": "https://inviteasy-modeles.fr/B4O4N/fr/hshr/",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "M3D6U",
+      "nom": "Blush Bloom",
+      "lien": "https://inviteasy-modeles.fr/M3D6U/mhs/",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "P7G0O",
+      "nom": "Circus Sparkle",
+      "lien": "https://inviteasy-modeles.fr/P7G0O/invt/modeles/",
+      "type": "Bat-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "M3I2S",
+      "nom": "Lemon Grove",
+      "lien": "https://inviteasy-modeles.fr/M3I2S/cmpl/modele/",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "V0T3K",
+      "nom": "Lavender Bloom",
+      "lien": "https://inviteasy-modeles.fr/V0T3K/fr/mhhcr/",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "P8P6I",
+      "nom": "Golden Arch",
+      "lien": "https://inviteasy-modeles.fr/P8P6I/invt/modeles/",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "U7P7D",
+      "nom": "Golden Marble",
+      "lien": "https://inviteasy-modeles.fr/U7P7D/",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "C1Z0X",
+      "nom": "Aqua Blooms",
+      "lien": "https://inviteasy-modeles.fr/C1Z0X/",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "B2G3B",
+      "nom": "Arctic Glow",
+      "lien": "https://inviteasy-modeles.fr/B2G3B/fr/invt/doe/",
+      "type": "Bat/Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "V2J0T",
+      "nom": "Enchanted Grove",
+      "lien": "https://inviteasy-modeles.fr/V2J0T/fr/cslr/modele/",
+      "type": "Bat-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "F6X2K",
+      "nom": "Cyber Skyline",
+      "lien": "https://inviteasy-modeles.fr/F6X2K/",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "Z2L7P",
+      "nom": "Cosmic Glow",
+      "lien": "https://inviteasy-modeles.fr/Z2L7P",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "P7V5J",
+      "nom": "Timeless Stripe",
+      "lien": "https://inviteasy-modeles.fr/P7V5J",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "S0N2T",
+      "nom": "Skyline Chronicles",
+      "lien": "https://inviteasy-modeles.fr/S0N2T",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "C7O7S",
+      "nom": "Eternal Grace",
+      "lien": "https://inviteasy-modeles.fr/C7O7S",
+      "type": "Mariage",
+      "health": "à-vérifier",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "N5N3T",
+      "nom": "Sunburst Celebration",
+      "lien": "https://inviteasy-modeles.fr/N5N3T",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "Y5C0D",
+      "nom": "Modern Stripes & Heartful Tribute",
+      "lien": "https://inviteasy-modeles.fr/Y5C0D",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "K0X2K",
+      "nom": "Floral Whispers",
+      "lien": "https://inviteasy-modeles.fr/K0X2K",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "M1V5Y",
+      "nom": "Sunset Safari",
+      "lien": "https://inviteasy-modeles.fr/M1V5Y",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "C3V6C",
+      "nom": "Championship Spirit",
+      "lien": "https://inviteasy-modeles.fr/C3V6C",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "G6S4Q",
+      "nom": "Geometric Waves",
+      "lien": "https://inviteasy-modeles.fr/G6S4Q",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "05IOG",
+      "nom": "Taupe Bloom",
+      "lien": "https://inviteasy-modeles.fr/05IOG",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "0G5CG",
+      "nom": "Tropical Traditions",
+      "lien": "https://inviteasy-modeles.fr/0G5CG",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "M0H3I",
+      "nom": "Sailing Horizons",
+      "lien": "https://inviteasy-modeles.fr/M0H3I",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "P8J3H",
+      "nom": "Ivory Grace",
+      "lien": "https://inviteasy-modeles.fr/P8J3H",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "E3M9R",
+      "nom": "Twin Harmony",
+      "lien": "https://inviteasy-modeles.fr/E3M9R",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "P6W1U",
+      "nom": "Blush Petals",
+      "lien": "https://inviteasy-modeles.fr/P6W1U",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "V8U4E",
+      "nom": "Enchanted Estate",
+      "lien": "https://inviteasy-modeles.fr/V8U4E",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "H0M4U",
+      "nom": "Blossom Canopy",
+      "lien": "https://inviteasy-modeles.fr/H0M4U",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "F9U8W",
+      "nom": "Aegean Idyll",
+      "lien": "https://inviteasy-modeles.fr/F9U8W",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "R9R1I",
+      "nom": "Elegant Vines",
+      "lien": "https://inviteasy-modeles.fr/R9R1I/fr/a-1/mariage/",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "J8T7W",
+      "nom": "Orchid Opulence",
+      "lien": "https://inviteasy-modeles.fr/J8T7W",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "S6C6T",
+      "nom": "Floral Harmony",
+      "lien": "https://inviteasy-modeles.fr/S6C6T",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "X9F7K",
+      "nom": "Gold Bloom",
+      "lien": "https://inviteasy-modeles.fr/X9F7K",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "C3Z8U",
+      "nom": "Marble Elegance",
+      "lien": "https://inviteasy-modeles.fr/C3Z8U/",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "0H1NL",
+      "nom": "Watercolor Whimsy",
+      "lien": "https://inviteasy-modeles.fr/0H1NL",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "0JY7H",
+      "nom": "Golden Elegance",
+      "lien": "https://inviteasy-modeles.fr/0JY7H",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "0B460",
+      "nom": "Jumpman Celebration",
+      "lien": "https://inviteasy-modeles.fr/0B460",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "0A7V5",
+      "nom": "Dynamic Splash",
+      "lien": "https://inviteasy-modeles.fr/0A7V5",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "06EYC",
+      "nom": "Neon Jungle",
+      "lien": "https://inviteasy-modeles.fr/06EYC",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "05QZY",
+      "nom": "Eternal Blossoms",
+      "lien": "https://inviteasy-modeles.fr/05QZY",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "00B46",
+      "nom": "Serene Union",
+      "lien": "https://inviteasy-modeles.fr/00B46",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "MFHBT",
+      "nom": "Burgundy Bloom",
+      "lien": "https://inviteasy-modeles.fr/MFHBT",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "024YG",
+      "nom": "Mosaic of Maturity",
+      "lien": "https://inviteasy-modeles.fr/024YG",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "DITCB",
+      "nom": "Golden Botanica",
+      "lien": "https://inviteasy-modeles.fr/DITCB",
+      "type": "Mariage",
+      "health": "à-vérifier",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "84547",
+      "nom": "Sacred Star",
+      "lien": "https://inviteasy-modeles.fr/84547/",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "GGFI8",
+      "nom": "Spidey Celebration",
+      "lien": "https://inviteasy-modeles.fr/GGFI8",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "RCLLW",
+      "nom": "Funky Festivity",
+      "lien": "https://inviteasy-modeles.fr/RCLLW",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "LZ4XJ",
+      "nom": "Verdant Vows",
+      "lien": "https://inviteasy-modeles.fr/LZ4XJ",
+      "type": "Mariage",
+      "health": "à-vérifier",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "C9TUH",
+      "nom": "Citrus Serenade",
+      "lien": "https://inviteasy-modeles.fr/C9TUH/",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "9JOPW",
+      "nom": "Wild Spirit",
+      "lien": "https://inviteasy-modeles.fr/9JOPW",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "GOSPX",
+      "nom": "Golden Harmony",
+      "lien": "https://inviteasy-modeles.fr/GOSPX",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "EV7P7",
+      "nom": "Twin Traditions",
+      "lien": "https://inviteasy-modeles.fr/EV7P7/mdtsrr",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "HNVFS",
+      "nom": "Neon Siblings",
+      "lien": "https://inviteasy-modeles.fr/HNVFS",
+      "type": "Bat/Bar-Mitzvah",
+      "health": "à-vérifier",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "J7GYY",
+      "nom": "Floral Elegance",
+      "lien": "https://inviteasy-modeles.fr/J7GYY",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "0BDFA",
+      "nom": "Urban Pop Fusion",
+      "lien": "https://inviteasy-modeles.fr/0BDFA",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "R1WL9",
+      "nom": "Timeless Simplicity",
+      "lien": "https://inviteasy-modeles.fr/R1WL9",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "KBU9I",
+      "nom": "Blue Majestic",
+      "lien": "https://inviteasy-modeles.fr/KBU9I/accueil",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "SFRHK",
+      "nom": "Neon Night",
+      "lien": "https://inviteasy-modeles.fr/SFRHK/",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "SCNAE",
+      "nom": "Moroccan Gateway",
+      "lien": "https://youtu.be/bPZMV8UBTts",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "2USO1",
+      "nom": "Slam Dunk",
+      "lien": "https://inviteasy-modeles.fr/2USO1",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "ZETAF",
+      "nom": "Golden Bloom",
+      "lien": "https://inviteasy-modeles.fr/ZETAF/",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "CJQM6",
+      "nom": "Romantic Abstract",
+      "lien": "https://inviteasy-modeles.fr/CJQM6/",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "HU8LI",
+      "nom": "Sacred Kotel",
+      "lien": "https://inviteasy-modeles.fr/HU8LI",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "AW232",
+      "nom": "Colors Linen",
+      "lien": "https://inviteasy-modeles.fr/AW232",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "AZMO2",
+      "nom": "Divin Off-White",
+      "lien": "https://youtu.be/0ZTdQsZwyPU",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "5VQVG",
+      "nom": "Marseille Passion",
+      "lien": "https://inviteasy-modeles.fr/5VQVG",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "B52AM",
+      "nom": "Golden Tunisian",
+      "lien": "https://youtu.be/kGllWkJ2JAQ",
+      "type": "Anniversaire",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "YFQLA",
+      "nom": "Sunset Paisley",
+      "lien": "https://inviteasy-modeles.fr/YFQLA",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "XZDX0",
+      "nom": "Monochrome Elegance",
+      "lien": "https://inviteasy-modeles.fr/XZDX0",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "AHV5W",
+      "nom": "Blue Serenity",
+      "lien": "https://inviteasy-modeles.fr/AHV5W",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "M5LK3",
+      "nom": "Golden Love",
+      "lien": "https://inviteasy-modeles.fr/M5LK3",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "Q3TWE",
+      "nom": "Tropical Bliss",
+      "lien": "https://inviteasy-modeles.fr/Q3TWE",
+      "type": "Mariage",
+      "health": "à-vérifier",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "W4ZCA",
+      "nom": "Blue Harmony",
+      "lien": "https://inviteasy-modeles.fr/W4ZCA",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "Q5MGE",
+      "nom": "Natural Spirit",
+      "lien": "https://inviteasy-modeles.fr/Q5MGE",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "MY8NJ",
+      "nom": "Sneaker Vibes",
+      "lien": "https://inviteasy-modeles.fr/MY8NJ",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "L1XIJ",
+      "nom": "Triangular Echoes",
+      "lien": "https://inviteasy-modeles.fr/L1XIJ",
+      "type": "Bar-Mitzvah",
+      "health": "à-vérifier",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "F2E47",
+      "nom": "Timeless Elegance",
+      "lien": "https://youtu.be/8UeXPy_2Fp0",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "LEFAR",
+      "nom": "Enchanted Celebration",
+      "lien": "https://youtu.be/2Vhc2NRK1z4",
+      "type": "Coupe de cheveux",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "6KNTM",
+      "nom": "Modern Story",
+      "lien": "https://inviteasy-modeles.fr/6KNTM",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "W16R0",
+      "nom": "Blue Heritage",
+      "lien": "https://inviteasy-modeles.fr/W16R0",
+      "type": "Bar-Mitzvah",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    },
+    {
+      "code": "8EEDG",
+      "nom": "Oriental Bliss",
+      "lien": "https://inviteasy-modeles.fr/8EEDG",
+      "type": "Mariage",
+      "health": "ok",
+      "checkedAt": "2026-06-30T09:26:17.965Z"
+    }
+  ]
+}
