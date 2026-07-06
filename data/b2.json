@@ -1,14 +1,22 @@
 {
   "brique": "B2 — Sauvegardes",
-  "status": "ok",
-  "summary": "aucune activité",
+  "status": "erreur",
+  "summary": "2 erreur(s)",
   "counts": {
     "sauvegardés": 0,
     "bloqués": 0
   },
-  "errors": [],
-  "lastRun": "2026-06-24T07:33:55.977Z",
+  "errors": [
+    "Evan Blaish : Timed out while waiting for handshake",
+    "Colette Cohen : Timed out while waiting for handshake"
+  ],
+  "lastRun": "2026-07-06T11:53:34.279Z",
   "history": [
+    {
+      "date": "2026-07-06T11:53:34.279Z",
+      "status": "erreur",
+      "summary": "2 erreur(s)"
+    },
     {
       "date": "2026-06-24T07:33:55.977Z",
       "status": "ok",
