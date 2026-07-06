@@ -1,19 +1,19 @@
 {
   "brique": "B6 — Miniatures",
-  "status": "erreur",
-  "summary": "4 erreur(s)",
+  "status": "ok",
+  "summary": "3 aperçus",
   "counts": {
     "miniatures": 0,
-    "aperçus": 0
+    "aperçus": 3
   },
-  "errors": [
-    "RCLLW : HTTP 404 sur https://inviteasy-modeles.fr/RCLLW",
-    "AP8BL : HTTP 404 sur https://inviteasy-modeles.fr/AP8BL",
-    "KBU9I : HTTP 404 sur https://inviteasy-modeles.fr/KBU9I/",
-    "W16R0 : HTTP 503 sur https://inviteasy-modeles.fr/W16R0"
-  ],
-  "lastRun": "2026-06-24T08:49:45.900Z",
+  "errors": [],
+  "lastRun": "2026-07-06T15:28:22.249Z",
   "history": [
+    {
+      "date": "2026-07-06T15:28:22.249Z",
+      "status": "ok",
+      "summary": "3 aperçus"
+    },
     {
       "date": "2026-06-24T08:49:45.900Z",
       "status": "erreur",
