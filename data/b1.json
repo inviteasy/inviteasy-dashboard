@@ -8,8 +8,13 @@
     "àVérifier": 3
   },
   "errors": [],
-  "lastRun": "2026-07-06T09:52:06.949Z",
+  "lastRun": "2026-07-13T08:43:09.627Z",
   "history": [
+    {
+      "date": "2026-07-13T08:43:09.627Z",
+      "status": "ok",
+      "summary": "1 résiliés, 3 àVérifier"
+    },
     {
       "date": "2026-07-06T09:52:06.949Z",
       "status": "ok",
