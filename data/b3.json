@@ -12,8 +12,13 @@
   "errors": [
     "AP8BL : LOCAL \"wp core download --path='/home/bidy0027/public_html/AP8BL' --force\" → 127 : /bin/sh: wp : commande introuvable\n"
   ],
-  "lastRun": "2026-07-06T10:02:27.971Z",
+  "lastRun": "2026-07-13T10:00:29.372Z",
   "history": [
+    {
+      "date": "2026-07-13T10:00:29.372Z",
+      "status": "erreur",
+      "summary": "1 erreur(s)"
+    },
     {
       "date": "2026-07-06T10:02:27.971Z",
       "status": "erreur",
