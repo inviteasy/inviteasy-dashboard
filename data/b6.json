@@ -1,14 +1,19 @@
 {
   "brique": "B6 — Miniatures",
   "status": "ok",
-  "summary": "3 aperçus",
+  "summary": "aucune activité",
   "counts": {
     "miniatures": 0,
-    "aperçus": 3
+    "aperçus": 0
   },
   "errors": [],
-  "lastRun": "2026-07-06T15:28:22.249Z",
+  "lastRun": "2026-07-13T14:25:43.663Z",
   "history": [
+    {
+      "date": "2026-07-13T14:25:43.663Z",
+      "status": "ok",
+      "summary": "aucune activité"
+    },
     {
       "date": "2026-07-06T15:28:22.249Z",
       "status": "ok",
