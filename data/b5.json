@@ -9,8 +9,13 @@
     "incomplets": 0
   },
   "errors": [],
-  "lastRun": "2026-07-06T18:05:20.613Z",
+  "lastRun": "2026-07-13T17:48:58.607Z",
   "history": [
+    {
+      "date": "2026-07-13T17:48:58.607Z",
+      "status": "ok",
+      "summary": "153 ignorés"
+    },
     {
       "date": "2026-07-06T18:05:20.613Z",
       "status": "ok",
@@ -53,11 +58,6 @@
     },
     {
       "date": "2026-06-22T18:14:25.597Z",
-      "status": "ok",
-      "summary": "153 ignorés"
-    },
-    {
-      "date": "2026-06-22T16:31:11.315Z",
       "status": "ok",
       "summary": "153 ignorés"
     }
