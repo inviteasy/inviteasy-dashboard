@@ -1,15 +1,20 @@
 {
   "brique": "B1 — Résiliation",
   "status": "ok",
-  "summary": "1 résiliés, 3 àVérifier",
+  "summary": "3 àVérifier",
   "counts": {
-    "résiliés": 1,
+    "résiliés": 0,
     "hébergements": 0,
     "àVérifier": 3
   },
   "errors": [],
-  "lastRun": "2026-07-13T08:43:09.627Z",
+  "lastRun": "2026-07-20T08:35:13.202Z",
   "history": [
+    {
+      "date": "2026-07-20T08:35:13.202Z",
+      "status": "ok",
+      "summary": "3 àVérifier"
+    },
     {
       "date": "2026-07-13T08:43:09.627Z",
       "status": "ok",
