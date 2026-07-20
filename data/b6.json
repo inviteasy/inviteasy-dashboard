@@ -7,8 +7,13 @@
     "aperçus": 0
   },
   "errors": [],
-  "lastRun": "2026-07-13T14:25:43.663Z",
+  "lastRun": "2026-07-20T13:58:33.759Z",
   "history": [
+    {
+      "date": "2026-07-20T13:58:33.759Z",
+      "status": "ok",
+      "summary": "aucune activité"
+    },
     {
       "date": "2026-07-13T14:25:43.663Z",
       "status": "ok",
