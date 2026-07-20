@@ -7,8 +7,13 @@
     "sautées": 0
   },
   "errors": [],
-  "lastRun": "2026-07-13T16:37:59.472Z",
+  "lastRun": "2026-07-20T15:54:32.960Z",
   "history": [
+    {
+      "date": "2026-07-20T15:54:32.960Z",
+      "status": "ok",
+      "summary": "aucune activité"
+    },
     {
       "date": "2026-07-13T16:37:59.472Z",
       "status": "ok",
